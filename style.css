@@ -1,0 +1,38 @@
+body {
+  background-image: url(images/bg-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+}
+
+@media (max-width: 1706px) {
+  body {
+    background-image: url(images/bg-mobile.svg);
+  }
+}
+
+.title {
+  font-size: 2.5rem;
+  font-family: Poppins, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.75rem;
+  }
+}
+
+.desc {
+  font-family: Open Sans, sans-serif;
+  font-size: 1.1rem;
+}
+
+button {
+  color: hsl(257, 40%, 49%);
+  border-radius: 10300px;
+  box-shadow: 0 0 10px #444;
+}
+
+.circle {
+  border-radius: 50%;
+}
