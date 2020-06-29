@@ -16,7 +16,46 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css" />
     <title>Frontend Mentor | Huddle landing page with single introductory section</title>
-    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-image: url(images/bg-desktop.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: hsl(257, 40%, 49%);
+      }
+
+      @media (max-width: 1200px) {
+        body {
+          background-image: url(images/bg-mobile.svg);
+        }
+      }
+
+      .title {
+        font-size: 2.5rem;
+        font-family: Poppins, sans-serif;
+      }
+
+      @media (max-width: 768px) {
+        .title {
+          font-size: 1.75rem;
+        }
+      }
+
+      .desc {
+        font-family: Open Sans, sans-serif;
+        font-size: 1.1rem;
+      }
+
+      button {
+        color: hsl(257, 40%, 49%);
+        border-radius: 10300px;
+        box-shadow: 0 0 10px #444;
+      }
+
+      .circle {
+        border-radius: 50%;
+      }
+    </style>
   </head>
   <body class="flex flex-col justify-between h-screen">
     <div class="px-8 py-6 sm:px-24 sm:py-10">
