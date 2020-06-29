@@ -5,7 +5,7 @@ body {
   background-color: hsl(257, 40%, 49%);
 }
 
-@media (max-width: 1706px) {
+@media (max-width: 1200px) {
   body {
     background-image: url(images/bg-mobile.svg);
   }
